@@ -1,0 +1,61 @@
+<!--ejercicios Basicos-Ejercicio 21: Realiza una página que muestre cinco cuadrados de diferentes colores. 
+    Cuando el ratón pase por encima de alguno de ellos el color de fondo será del color de relleno del cuadrado. -->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" type="text/css" href="./css/estilo.css" />
+  </head>
+
+  <body>
+    <h1>Ejercicio 5</h1>
+    <p>
+      Realiza una página que muestre cinco cuadrados de diferentes colores.
+      Cuando el ratón pase por encima de alguno de ellos el color de fondo será
+      del color de relleno del cuadrado.
+    </p>
+
+    <img
+      id="rojo"
+      class="cuadrado"
+      src="./imagenes/red.gif"
+      onmouseover="cambioColor('red')"
+    />
+    <img
+      id="azul"
+      class="cuadrado"
+      src="./imagenes/blue.gif"
+      onmouseover="cambioColor('blue')"
+    />
+    <img
+      id="amarillo"
+      class="cuadrado"
+      src="./imagenes/yellow.gif"
+      onmouseover="cambioColor('yellow')"
+    />
+    <img
+      id="verde"
+      class="cuadrado"
+      src="./imagenes/green.gif"
+      onmouseover="cambioColor('green')"
+    />
+    <img
+      id="blanco"
+      class="cuadrado"
+      src="./imagenes/white.gif"
+      onmouseover="cambioColor('white')"
+    />
+
+    <div id="CajaCambiante"></div>
+
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="./ejercicio5.js"
+    ></script>
+  </body>
+</html>
